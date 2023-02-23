@@ -27,13 +27,13 @@ const INITIAL_STATE = {
 //TODO: single reducer
 function singleReducer(state = INITIAL_STATE, action) {
   switch (action.type) {
-    case "CAKE_ORDERED": {
+    case ORDERS.CAKE_ORDERED: {
       return {
         ...state,
         cakeNumber: state.cakeNumber - 1,
       };
     }
-    case "ICE_CREAM_ORDERED": {
+    case ORDERS.ICE_CREAM_ORDERED: {
       return {
         ...state,
         iceCreamNumber: state.iceCreamNumber - 1,
