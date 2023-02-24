@@ -94,4 +94,4 @@ store.subscribe(() => {
 
 store.dispatch(fetchUser());
 
-//! Make sure that the subscribe is added before dispatch in order to get all the logs
+//! Make sure that the subscribe is added before dispatch in order to get all the logs - chanfe check
